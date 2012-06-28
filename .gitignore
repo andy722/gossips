@@ -1,0 +1,4 @@
+
+*.pyc
+storage.sqlite
+.idea/workspace.xml
