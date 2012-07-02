@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    {#    TODO #}
+
+    <link rel="stylesheet" type="text/css" href="/static/common.css" />
+
+</head>
+
+<body class="is_rtl font_default">
+
+<div id="system_msg" class="fixed"></div>
+<div id="utils"></div>
+
+<div id="layer_bg" class="fixed"></div><div id="layer_wrap" class="scroll_fix_wrap fixed"><div id="layer"></div></div>
+<div id="box_layer_bg" class="fixed"></div><div id="box_layer_wrap" class="scroll_fix_wrap fixed"><div id="box_layer"><div id="box_loader"><div class="loader"></div><div class="back"></div></div></div></div>
+
+<div id="stl_left"></div><div id="stl_side"></div>
+
+<div class="scroll_fix_wrap" id="page_wrap">
+    <div><div class="scroll_fix">
+        <div id="page_layout" style="width: 791px;">
+
+            <div id="page_header" class="p_head p_head_l0">
+                <div class="back"></div>
+                <div class="left"></div>
+                <div class="right"></div>
+                <div class="content">
+                    <div id="top_nav" class="head_nav">
+                        <div id="top_logo_down" class="fl_l"></div>
+                        <a id="top_home_link" class="top_home_link fl_l" href="/" onmousedown="addClass('top_logo_down','tld_d');" onclick="return nav.go(this, event);" onmouseup="removeClass('top_logo_down','tld_d');" style=""></a>
+
+                        <div id="top_links">
+                            <div class="fl_r" id="top_menu_wrap" style="">
+                                <a id="top_reg_link" class="fl_r top_nav_link" href="/join" style="" onclick="return !showBox('join.php', {act: 'box', from: nav.strLoc}, {}, event)">регистрация</a>
+                            </div>
+                            <a class="fl_l top_nav_link" href="" id="top_back_link" onclick="return nav.go(this, event, {back: true})"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+</div>
+</body>
+
+</html>
